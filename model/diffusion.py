@@ -7,6 +7,7 @@ from torch import nn
 from torch.optim import Adam
 from PIL import Image
 import math
+
 class Diffusion:
     def __init__(self):
         self.dataset = None
