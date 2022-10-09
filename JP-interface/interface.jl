@@ -15,5 +15,5 @@ export function train()
 end
 
 export function test(ipath, opath)
-    dmodel.test(ipath, opath)
+    dmodel.test_image(ipath, opath)
 end

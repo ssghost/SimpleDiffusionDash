@@ -172,7 +172,7 @@ class Diffusion:
             if epoch % 5 == 0 and step == 0:
                 print(f"Epoch {epoch} | step {step:03d} Loss: {loss.item()} ")
 
-    def test_image(self, ipath = "./input.png", opath = "./output.png"):
+    def test_image(self, ipath = "asset/input.png", opath = "aset/output.png"):
         img = Image.open(ipath)
         img_transform = transforms.Compose([
             transforms.Resize((self.img_size, self.img_size)),

@@ -24,7 +24,7 @@ end
 export image_out = Dash.html_div(
     Dash.dcc_input(
         id = "out_path"
-        placeholder = "output.png"
+        placeholder = "asset/output.png"
     ),
     Dash.htmlImg(
         id = "image_out_show",
